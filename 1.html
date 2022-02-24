@@ -48,6 +48,15 @@ left:1190px;
 </body>
 
 <script src="jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() {
+      $("form").keypress(function(e) {
+          if (e.which == 13) {
+              return false;
+          }
+      });
+  });
+  </script>
 
 </html>
 
